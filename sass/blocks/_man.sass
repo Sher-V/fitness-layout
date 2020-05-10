@@ -1,0 +1,59 @@
+$assetPath: "../assets"
+
+.man
+  background: black url(#{$assetPath}/horton.svg) no-repeat center top 150px
+  background-size: contain
+  padding-bottom: 900px
+  position: relative
+  margin-top: 65px
+  margin-bottom: 246px
+
+  .man-menu
+    width: 1140px
+    height: 287px
+    position: absolute
+    top: 100%
+    left: 50%
+    transform: translate(-50%, -50%)
+    box-shadow: 0 21px 49px 1px rgba(41, 44, 61, 0.15)
+    border-radius: 2px
+    background-color: #ffffff
+    display: flex
+    justify-content: space-between
+
+  .man-menu__item
+    display: flex
+    flex: 1
+    align-items: center
+    justify-content: center
+
+  .man-menu__info
+    display: flex
+    flex-direction: column
+    margin-left: 34px
+
+  .man-menu__text
+    color: #212121
+    font-family: "Roboto Condensed", sans-serif
+    font-size: 18px
+    font-weight: 700
+    line-height: 28px
+    text-transform: uppercase
+    letter-spacing: 0.72px
+
+  .man-menu__button
+    color: #ff5252
+    font-family: "Roboto Condensed", sans-serif
+    font-size: 14px
+    font-weight: 400
+    line-height: 28px
+    text-transform: uppercase
+    letter-spacing: 0.56px
+    border: none
+    margin-top: 27px
+    align-self: flex-start
+
+@media (max-width: 768px)
+  .man
+    background-size: contain
+    background-position-y: 50px
